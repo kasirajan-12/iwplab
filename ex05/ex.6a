@@ -1,0 +1,37 @@
+ class WrapperClassDemo
+{
+    public static void main(String[]args)
+    {
+        int primitiveInt=100;
+        float primitiveFloat=24.75f;
+        char primitiveChar='A';
+        booolean primitiveBoolean=true;
+        Integer wrapperInt=primitiveInt;
+        Float wrapperFloat=primitiveFloat;
+        Character wrapperChar=primitiveChar;
+        Boolean wrapperBoolean=primitiveBoolean;
+        Sypublicstem.out.println("Autoboxed Interger:"+wrappedInt);
+        System.out.println("Autoboxed Float:"+wrappedFloat):
+        System.out.println("Autoboxed Character:"+wrappedChar);
+        System.out.println("Autoboxed Booolean:"+wrappedBoolean);
+        int unboxedInt=wrappedInt;
+        float unboxedChar=wrappedChar;
+        boolean unboxedBoolean=wrappedBoolean;
+        System.out.println("Unboxed int:"+unboxedInt);
+        System.out.println("Unboxed float:"+unboxedFloat);
+        System.out.println("Unboxed char:"+unboxedChar);
+        System.out.println("Unboxed boolean:"+unboxedBoolean);
+        String intString="300";
+        Integer parsedInt=Integer.parseInt(intString);
+        String floatString="75.25";
+        Float parsedFloat=Float.parseFloat(floatString);
+        String charstring="C";
+        Character parsedChar=CharString.charAt(0);
+        String booleanString="true";
+        Boolean parseBoolean=Boolean.parseBoolean(booleanString);
+        System.out.println("Parsed and autoboxed Integer:"+parsedInty):
+        System.out.println("Parsed and autoboxed Float:"+parsedFloat);
+        System.out.println("Parsed and autoboxed Character:"+parsedChar);
+        System.out.println("Parsed and autoboxed Boolean:"+parsedBooolean);]
+    }
+}
